@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Test Work</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+<!--1. Popup -->
+            <p class="popup">
+                1. Сверстать popup по центру, его размеры нам известны, 
+                но мы не хотим что бы он прокручивался вместе со страницей, 
+                причем по высоте может и не влезать в высоту экрана.
+            </p>
+            <button class="btn" id="btn-open">Open popup</button>
+            <div class="block_popup">
+                <div class="block_img">
+                    <!-- <img src="img/picture.jpg" alt="picture"> -->
+                </div>
+                <button class="btn" id="btn-close">Close</button>
+            </div> 
+<!--2. Нарисовать стилями полукруг. https://prnt.sc/r40ebb -->
+            <div class="secondTest">
+                <p class="popup">
+                    2. Нарисовать стилями полукруг. <a href="https://prnt.sc/r40ebb" target="_blank">ttps://prnt.sc/r40ebb</a>   
+                </p>
+                <div class="secondTest-wrapper">
+                    <div class="circle"></div>
+                </div>
+                
+            </div>
+<!--3. Как подключить js, css? Плюсы, минусы разных способов? -->
+            <p class="popup">
+                3. Как подключить js, css? Плюсы, минусы разных способов?<br><br>
+                Js подкулючаем отдельным файлом перед закрывающим тегом &lt;body&gt;
+            </p>
+<!--4. Что такое ресет(сброс) стилей? -->
+            <p class="popup">
+                4. Что такое ресет(сброс) стилей?<br><br>
+                Hабор CSS правил, при применении которых сбрасываются стили всех HTML элементов в браузере.
+            </p>
+<!--5. Чем opacity отличается от visible: hidden и что это такое, отличие от overflow: hidden? -->
+            <p class="popup">
+                5. Чем opacity отличается от visible: hidden и что это такое, отличие от overflow: hidden?<br><br>
+                opacity введено в спецификацию CSS3, делает прозрачным весь элемент целиком, включая его содержимое и фон элемента, 
+                отличие от overflow: hidden - oпределяет уровень прозрачности элемента
+            </p>
+<!--6. Есть div, в нем другой div, у второго задан padding 50%, как будeт выглядеть контуры блоков схематически? -->
+            <div class="div-wrapper">
+                <p class="popup">
+                    6. Есть div, в нем другой div, у второго задан padding 50%, как будeт выглядеть контуры блоков 
+                    схематически?
+                </p>
+                <div class="parent-div">
+                    <div class="child-div"></div>
+                </div>
+            </div>
+<!--7. Как на javascript проверяется несуществующее значение, null или undefined ? -->
+            <p class="popup">
+                7. Как на javascript проверяется несуществующее значение, null или undefined ?<br><br>
+                undefined 
+            </p>
+<!--8. Сверстать и написать javascript/jquery скрипт простого слайдера в котором слайды в виде картинок и 
+    текста имеют ширину 100% экрана. В функционале слайдера только две кнопки движения слайдов вперед и назад вручную. 
+    Цикличность не нужно делать, после отображения последнего слайда блокировка кнопки вперед, а при отображении 
+    первого слайда блокировка кнопки назад. -->
+            <p class="popup">
+                8. Сверстать и написать javascript/jquery скрипт простого слайдера в котором слайды в виде картинок и 
+                текста имеют ширину 100% экрана. В функционале слайдера только две кнопки движения слайдов вперед и назад вручную. 
+                Цикличность не нужно делать, после отображения последнего слайда блокировка кнопки вперед, а при отображении 
+                 первого слайда блокировка кнопки назад.
+            </p>
+            <div class="slider-wrapper">
+        <!-- Кнопки слайдера -->
+                <button class="btn-slider-left">
+                    <img src="img/back.png" alt="">
+                </button>
+                <button class="btn-slider-right">
+                    <img src="img/next.png" alt="">
+                </button>
+        <!-- Командa -->
+                <div class="slider-item-wrapper">
+                    <div class="item-column">
+                        <div class="social-block">
+                            <div class="social-bar">
+                                <div class="facebook-bar">
+                                    <a href="#">
+                                        <img src="img/social_bar/facebook.png" alt="facebook">
+                                    </a> 
+                                </div>
+                                <div class="twitter-bar">
+                                    <a href="#">
+                                        <img src="img/social_bar/twitter.png" alt="twitter">
+                                    </a>
+                                </div>
+                                <div class="google-bar">
+                                    <a href="#">
+                                        <img src="img/social_bar/google-plus-logo.png" alt="google">
+                                    </a>
+                                </div>
+                                <div class="linkedin-bar">
+                                    <a href="#">
+                                        <img src="img/social_bar/linkedin.png" alt="linkedin">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <img src="img/Layer%2012.png" alt="">
+                        <h4>Md. Khalil Uddin</h4>
+                        <p>Head of Ideas</p>
+                    </div>
+                    <div class="item-column">
+                        <div class="social-block">
+                            <div class="social-bar">
+                                <div class="facebook-bar">
+                                    <a href="#">
+                                        <img src="img/social_bar/facebook.png" alt="facebook">
+                                    </a> 
+                                </div>
+                                <div class="twitter-bar">
+                                    <a href="#">
+                                        <img src="img/social_bar/twitter.png" alt="twitter">
+                                    </a>
+                                </div>
+                                <div class="google-bar">
+                                    <a href="#">
+                                        <img src="img/social_bar/google-plus-logo.png" alt="google">
+                                    </a>
+                                </div>
+                                <div class="linkedin-bar">
+                                    <a href="#">
+                                        <img src="img/social_bar/linkedin.png" alt="linkedin">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <img src="img/Layer%2013.png" alt="">
+                        <h4>Rubel Miah</h4>
+                        <p>Load WordPress Developer</p>
+                    </div>
+                    <div class="item-column">
+                        <div class="social-block">
+                            <div class="social-bar">
+                                <div class="facebook-bar">
+                                    <a href="#">
+                                        <img src="img/social_bar/facebook.png" alt="facebook">
+                                    </a> 
+                                </div>
+                                <div class="twitter-bar">
+                                    <a href="#">
+                                        <img src="img/social_bar/twitter.png" alt="twitter">
+                                    </a>
+                                </div>
+                                <div class="google-bar">
+                                    <a href="#">
+                                        <img src="img/social_bar/google-plus-logo.png" alt="google">
+                                    </a>
+                                </div>
+                                <div class="linkedin-bar">
+                                    <a href="#">
+                                        <img src="img/social_bar/linkedin.png" alt="linkedin">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <img src="img/Layer%2015.png" alt="">
+                        <h4>Shamim Mia</h4>
+                        <p>Sr.Web Developer</p>
+                    </div>
+                    <div class="item-column">
+                        <div class="social-block">
+                            <div class="social-bar">
+                                <div class="facebook-bar">
+                                    <a href="#">
+                                        <img src="img/social_bar/facebook.png" alt="facebook">
+                                    </a> 
+                                </div>
+                                <div class="twitter-bar">
+                                    <a href="#">
+                                        <img src="img/social_bar/twitter.png" alt="twitter">
+                                    </a>
+                                </div>
+                                <div class="google-bar">
+                                    <a href="#">
+                                        <img src="img/social_bar/google-plus-logo.png" alt="google">
+                                    </a>
+                                </div>
+                                <div class="linkedin-bar">
+                                    <a href="#">
+                                        <img src="img/social_bar/linkedin.png" alt="linkedin">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <img src="img/Layer%2016.png" alt="">
+                        <h4>John Doe</h4>
+                        <p>Front-end Developer</p>
+                    </div> 
+                    <div class="item-column">
+                        <div class="social-block">
+                            <div class="social-bar">
+                                <div class="facebook-bar">
+                                    <a href="#">
+                                        <img src="img/social_bar/facebook.png" alt="facebook">
+                                    </a> 
+                                </div>
+                                <div class="twitter-bar">
+                                    <a href="#">
+                                        <img src="img/social_bar/twitter.png" alt="twitter">
+                                    </a>
+                                </div>
+                                <div class="google-bar">
+                                    <a href="#">
+                                        <img src="img/social_bar/google-plus-logo.png" alt="google">
+                                    </a>
+                                </div>
+                                <div class="linkedin-bar">
+                                    <a href="#">
+                                        <img src="img/social_bar/linkedin.png" alt="linkedin">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <img src="img/Layer%2012.png" alt="">
+                        <h4>Md. Khalil Uddin</h4>
+                        <p>Head of Ideas</p>
+                    </div>
+                    <div class="item-column">
+                        <div class="social-block">
+                            <div class="social-bar">
+                                <div class="facebook-bar">
+                                    <a href="#">
+                                        <img src="img/social_bar/facebook.png" alt="facebook">
+                                    </a> 
+                                </div>
+                                <div class="twitter-bar">
+                                    <a href="#">
+                                        <img src="img/social_bar/twitter.png" alt="twitter">
+                                    </a>
+                                </div>
+                                <div class="google-bar">
+                                    <a href="#">
+                                        <img src="img/social_bar/google-plus-logo.png" alt="google">
+                                    </a>
+                                </div>
+                                <div class="linkedin-bar">
+                                    <a href="#">
+                                        <img src="img/social_bar/linkedin.png" alt="linkedin">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <img src="img/Layer%2013.png" alt="">
+                        <h4>Rubel Miah</h4>
+                        <p>Load WordPress Developer</p>
+                    </div>
+                    <div class="item-column">
+                        <div class="social-block">
+                            <div class="social-bar">
+                                <div class="facebook-bar">
+                                    <a href="#">
+                                        <img src="img/social_bar/facebook.png" alt="facebook">
+                                    </a> 
+                                </div>
+                                <div class="twitter-bar">
+                                    <a href="#">
+                                        <img src="img/social_bar/twitter.png" alt="twitter">
+                                    </a>
+                                </div>
+                                <div class="google-bar">
+                                    <a href="#">
+                                        <img src="img/social_bar/google-plus-logo.png" alt="google">
+                                    </a>
+                                </div>
+                                <div class="linkedin-bar">
+                                    <a href="#">
+                                        <img src="img/social_bar/linkedin.png" alt="linkedin">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <img src="img/Layer%2015.png" alt="">
+                        <h4>Shamim Mia</h4>
+                        <p>Sr.Web Developer</p>
+                    </div>
+                    <div class="item-column">
+                        <div class="social-block">
+                            <div class="social-bar">
+                                <div class="facebook-bar">
+                                    <a href="#">
+                                        <img src="img/social_bar/facebook.png" alt="facebook">
+                                    </a> 
+                                </div>
+                                <div class="twitter-bar">
+                                    <a href="#">
+                                        <img src="img/social_bar/twitter.png" alt="twitter">
+                                    </a>
+                                </div>
+                                <div class="google-bar">
+                                    <a href="#">
+                                        <img src="img/social_bar/google-plus-logo.png" alt="google">
+                                    </a>
+                                </div>
+                                <div class="linkedin-bar">
+                                    <a href="#">
+                                        <img src="img/social_bar/linkedin.png" alt="linkedin">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <img src="img/Layer%2016.png" alt="">
+                        <h4>John Doe</h4>
+                        <p>Front-end Developer</p>
+                    </div> 
+                </div>
+            </div> 
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
